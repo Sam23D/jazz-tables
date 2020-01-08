@@ -23,7 +23,7 @@ HTML se utiliza para mostrarle informacion al usuario de una u otra manera ya se
 
 Una de las cosas importantes es poder referenciar a un **elemento** en especifico, para eso se usa el atributo `id`, lo importante de este atributo es que es `unico` por elemento, no pueden existir dos elementos diferentes con el mismo `id`, y si se repite en dos elementos o mas elementos el primero en ser asignado se lo queda, otro de los atributos importantes es `class` este nos permite identificar por  `categoria`, podemos tener muchos elementos con la misma `class` y asi poder referirse a ellos como un grupo, digamos que queremos que los elementos con clases `class="msg"` tengan el borde inferior de color gris, y que su palomita se ponga azul cuando el usuario lo lea, estos identificadores nos van a servir cuando necesitemos hacer este funcionamiento y necesitamos usar _html_ en conjunto con _css_ o con _Javascript_
 
-####Estructura basica de un Elemento HTML
+#### Estructura basica de un Elemento HTML
 
 Un elemento HTML se compone por 3 partes principales:
 
@@ -105,7 +105,7 @@ El `body` se utiliza para agregar el cuerpo de nuestra aplicacion web, los input
 
 Hay dos etiquetas nuevas, `<link>` nos ayuda a ligar archivos de estilo CSS y `<script>` nos ayuda a ligar los archivos que contienen nuestra logica en Javascript
 
-#####Lista de links externos de consulta
+##### Lista de links externos de consulta
 
 https://www.w3schools.com/tags/default.asp lista detallada de elementos html
 
