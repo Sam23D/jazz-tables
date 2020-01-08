@@ -11,7 +11,7 @@ Imagina hacer una aplicacion web es como hacer una casa, una casa requiere de:
 
 Una aplicacion web necesita:
 
-##HTML
+## HTML
 
 HTML viene siendo lo que cumple con la funcion de Planos, Camas, Simientos, Ventanas, se puede ver como lo tangible, 
 
@@ -69,7 +69,7 @@ _Ejemplo codigo html:_
 </div>
 ```
 
-####Estructura basica de un Archivo HTML
+#### Estructura basica de un Archivo HTML
 
 Como vimos podemos crear estructuras complejas con un árbol de elementos, las paginas html se tienen que tener siempre una raiz principal que tiene que ser así:
 
@@ -109,7 +109,7 @@ Hay dos etiquetas nuevas, `<link>` nos ayuda a ligar archivos de estilo CSS y `<
 
 https://www.w3schools.com/tags/default.asp lista detallada de elementos html
 
-## CSS
+## CSS
 
 CSS viene siendo la pintura en las paredes, o la posision de hacia donde apunta el sillon en la sala, este nos ayuda a especificar colores, margenes, posicion, orden, si es columna si es pegado al borde de la pagina, css es el que le da orden y de como se ven los elementos html.
 
@@ -244,7 +244,7 @@ console.log("Hola mundo")
 
 
 
-##DOM
+## DOM
 
 Ya habiamos hablado de nuestra pagina web como si fuera un arbol, en realidad lo es, los exploradores chrome, safari, etc... agarran el documento `html`, ven todos los correspondientes archivos `css` y `js` lo juntan en algo que se le conoce como **Document Object Model**, esta es la estructura de datos final que el explorador conoce como tu aplicación/pagina web, el **DOM** es la agrupacion de `html`, `css` , `javascript`  que sera nuestra aplicacion. 
 
@@ -268,7 +268,7 @@ fruit_list.append_child(new_fruit)
 
 
 
-######_Estado del arte_
+###### _Estado del arte_
 
 Trabajar con el DOM directamente a travez de llavascript tiende a hacerse complicado conforme la aplicacion crece y propenso a errores, si has escuchado de `JQuery` es una libreria que sirgio de lo complejo y repetitivo que era acceder al DOM, pero no fue suficiente, entre las soluciones que hay hoy en dia, la mas popular es la de tener un *Virtual DOM* donde todo se maneje desde javascript, y el DOM de la pagina se cree en copia al virtual, librerias y frameworks se han hecho de esta manera, `React`, `Angular`, `Vue` por mencionar los mas populares, si bien estas son las nuevas librerias que se utilizan, estas en el fondo son los mismos conceptos que acabamos de ver, es importante entenderlos y saber como funcionan si queremos aprender las siguientes librerias tambien
 
