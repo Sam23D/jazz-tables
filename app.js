@@ -6,7 +6,10 @@ app({
   init: 0,
   view: state =>
     h('div', { class: `flex-centered`}, [
-      SandBox()
+      SandBox(
+        //Put here the element you want to design
+        
+      )
     ]),
   node: document.getElementById("app")
 })
