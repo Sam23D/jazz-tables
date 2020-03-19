@@ -1,4 +1,6 @@
 
+![](https://github.com/Sam23D/ha_template/workflows/CI/badge.svg)
+
 ## Installation Instructions
 
 ``` 
