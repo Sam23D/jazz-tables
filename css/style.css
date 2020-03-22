@@ -1,5 +1,31 @@
 @import "./reset.css";
 
+:root{
+	--grey-100: #f1f2f6;
+	--grey-200: #dfe4ea;
+	--grey-300: #ced6e0;
+	--grey: #a4b0be;
+	--grey-600: #747d8c;
+	--grey-700: #57606f;
+	--grey-800: #2f3542;
+
+	--green-50: #a3d4aB;
+	--green-100: #93C49B;
+	--green-200: #00AF14;
+	--green-300: #2DA744;
+	--green: #00AF32;
+	--green-600: #008732;
+	--green-700: #006432;
+	--green-800: #004B32;
+
+
+	--px-xs: 5px;
+	--px-sm: 8px;
+	--px-md: 12px;
+	--px-lg: 16px;
+	--px-xl: 24px;
+}
+
 body{
 	color: #333;
 
